@@ -95,7 +95,7 @@ $(function () {
 
   // Interstellar details demo
   $('#interDetails').click(() => {
-    alert('Demo: Interstellar details — link opens Wikipedia in a real site.');
+  location.href ='https://www.netflix.com/title/70305903';
   });
 
   // Sticky header class on scroll
@@ -103,4 +103,5 @@ $(function () {
   $(window).on('scroll', function () {
     if ($(this).scrollTop() > 60) $header.addClass('scrolled'); else $header.removeClass('scrolled');
   });
+
 });
